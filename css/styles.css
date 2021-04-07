@@ -24,8 +24,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1abc9c;
-  --secondary: #2c3e50;
+  --primary: #ff9831;
+  --secondary: #6527df;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -158,15 +158,17 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: #1abc9c;
+a 
+{
+  color: #ff9831;
   text-decoration: none;
-  background-color: transparent;
+  background-color: transparent; 
 }
-a:hover {
-  color: #117964;
-  text-decoration: underline;
-}
+  a:hover 
+  {
+    color: #e47200;
+    text-decoration: underline; 
+  }
 
 a:not([href]):not([class]) {
   color: inherit;
